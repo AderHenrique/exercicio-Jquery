@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+header button {
+  margin-top: 30px;
+  cursor: pointer;
+  padding: 5px 50px;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #5f27cd;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 10px solid #341f97;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+}
+form {
+  background-color: darkgray;
+  padding: 30px;
+  text-align: center;
+  display: none;
+  border-bottom: 5px solid black;
+}
+form input {
+  text-align: center;
+  border: none;
+  padding: 5px 20px;
+}
+form button {
+  background-color: green;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+body {
+  background-color: #808080;
+}
+
+.riscado {
+  text-decoration: line-through;
+}
